@@ -85,6 +85,7 @@ class YourCommand(BaseCommand):
     description = "My cool command!"
     help = "Usage: command <message> [options]"
     fun = False # Determine if the command should be locked behind the fun commands config option
+
     def execute(self, *args, **kwargs) -> int:
         """
         Execute your command logic here.
