@@ -1,0 +1,25 @@
+{
+  "prompt": {
+    "format": "{emoji} {username} » ",
+    "emoji": "🌀"
+  },
+
+  "ai": {
+    "temperature": 0.5
+  },
+
+  "aliases": {
+    "ai": "llm",
+    "c": "clear",
+    "h": "help"
+  },
+
+  "logging": {
+    "level": "INFO",
+    "keep_days": 7
+  },
+
+  "features": {
+    "fun_commands": true
+  }
+}
