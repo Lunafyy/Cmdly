@@ -80,6 +80,11 @@ Create a new command by extending the BaseCommand class:
 from core.core_types.command import BaseCommand
 
 class YourCommand(BaseCommand):
+    author = "Your Name"
+    date_created = "YYYY-MM-DD"
+    description = "My cool command!"
+    help = "Usage: command <message> [options]"
+    fun = False # Determine if the command should be locked behind the fun commands config option
     def execute(self, *args, **kwargs) -> int:
         """
         Execute your command logic here.
